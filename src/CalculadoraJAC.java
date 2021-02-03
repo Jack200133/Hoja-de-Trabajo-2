@@ -46,6 +46,12 @@ public class CalculadoraJAC implements CalculadoraGeneral{
             }
 
         }
-        return vec.pop().toString();
+        if(vec.size() == 1){
+            return vec.pop().toString();
+        }
+        else{
+            return "Operacion No Valida";
+        }
+
     }
 }
