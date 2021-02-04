@@ -5,13 +5,13 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) throws FileNotFoundException {
         try {
-            File datos = new File("D:\\Desktop\\U\\Tercer semestre\\Algoritmos y estructuras de datos\\HDT2\\src\\calc.txt");
+            File datos = new File("datos.txt");
             Scanner scan = new Scanner(datos);
             CalculadoraJAC cj = new CalculadoraJAC();
 
             while (scan.hasNextLine()) {
                 String dt = scan.nextLine();
-                String resultado = cj.calculo(dt);
+                String resultado = cj.Calculo(dt);
                 System.out.println(resultado);
             }
             scan.close();

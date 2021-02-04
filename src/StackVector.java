@@ -1,10 +1,10 @@
 import java.util.Vector;
 
-public class StackCalculadora<T> implements Stack<T> {
+public class StackVector<T> implements Stack<T> {
 
     Vector<T> vector;
 
-    public StackCalculadora() {
+    public StackVector() {
         this.vector = new Vector<T>();
     }
 

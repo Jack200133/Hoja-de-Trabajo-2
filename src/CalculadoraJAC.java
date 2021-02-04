@@ -1,8 +1,8 @@
 public class CalculadoraJAC implements CalculadoraGeneral{
-    StackCalculadora<Integer> vec;
+    StackVector<Integer> vec;
 
     public CalculadoraJAC() {
-        vec = new StackCalculadora<Integer>();
+        vec = new StackVector<Integer>();
     }
 
     /**
@@ -10,7 +10,7 @@ public class CalculadoraJAC implements CalculadoraGeneral{
      *
      */
     @Override
-    public String calculo(String texto) {
+    public String Calculo(String texto) {
         for (int i = 0; i < texto.length(); i++) {
             char inds = texto.charAt(i);
 

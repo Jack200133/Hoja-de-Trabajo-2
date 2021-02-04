@@ -6,7 +6,7 @@ public class StackCalculadoraTest {
 
     @Test
     public void push() {
-        StackCalculadora<Integer> fe = new StackCalculadora<Integer>();
+        StackVector<Integer> fe = new StackVector<Integer>();
         fe.push(12);
         fe.push(3);
 
@@ -15,7 +15,7 @@ public class StackCalculadoraTest {
 
     @Test
     public void pop() {
-        StackCalculadora<Integer> fe = new StackCalculadora<Integer>();
+        StackVector<Integer> fe = new StackVector<Integer>();
         fe.push(12);
         int aph = fe.pop();
 
@@ -24,7 +24,7 @@ public class StackCalculadoraTest {
 
     @Test
     public void empty() {
-        StackCalculadora<Integer> fe = new StackCalculadora<Integer>();
+        StackVector<Integer> fe = new StackVector<Integer>();
         fe.push(12);
         boolean sera = fe.empty();
         assertFalse(sera);
