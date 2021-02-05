@@ -1,3 +1,12 @@
+/***************************************************************
+ * Stack.java
+ * Autor: Juan Angel Carrera
+ * Universidad del Valle de Guatemala
+ *
+ * Stack general que servira para que sea implementada por cuaquier
+ * clase que quiera hacer un stack para almacenar y usa generics
+ * para que pueda recibir cualquier tipo de dato
+ ***************************************************************/
 public interface Stack<E>
 {
 

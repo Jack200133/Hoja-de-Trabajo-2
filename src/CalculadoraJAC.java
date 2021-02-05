@@ -1,3 +1,12 @@
+/***************************************************************
+ * CalculadoraJAC.java
+ * Autor: Juan Angel Carrera
+ * Universidad del Valle de Guatemala
+ *
+ * Clase Calculadora que implementa el metodo de Calculo donde
+ * se envian los numeros al Stack y cuando hay un signo opera
+ * los numeros del stack en orde de arriba a abajo
+ ***************************************************************/
 public class CalculadoraJAC implements CalculadoraGeneral{
     StackVector<Integer> vec;
 

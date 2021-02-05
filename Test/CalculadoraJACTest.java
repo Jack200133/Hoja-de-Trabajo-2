@@ -1,3 +1,5 @@
+/** Test para probar que la calculadora recibe un string de datos y devuelve el resultado de la
+ * operacion postfix*/
 import org.junit.Test;
 
 import static org.junit.Assert.*;

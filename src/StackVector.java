@@ -1,3 +1,11 @@
+/***************************************************************
+ * StackVector.java
+ * Autor: Juan Angel Carrera
+ * Universidad del Valle de Guatemala
+ *
+ * Stack general que servira para almacenar los datos temporalmente
+ * de la calculadora y usa un vector para implementar el stack
+ ***************************************************************/
 import java.util.Vector;
 
 public class StackVector<T> implements Stack<T> {

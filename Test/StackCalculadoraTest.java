@@ -1,3 +1,4 @@
+/** Test para probar que el stack si pueda agregar items al vector, eliminarlos y verificar que este vacio*/
 import org.junit.Test;
 
 import static org.junit.Assert.*;
